@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Mark Evans",
+        "img": "MarkEvans",
+        "club": "Raimon",
+        "position": "GK"
+    },
+    {
+        "name": "Jack Wallside",
+        "img": "JackWallside",
+        "club": "Raimon",
+        "position": "DF"
+    },
+    {
+        "name": "Jim Wraith",
+        "img": "JimWraith",
+        "club": "Raimon",
+        "position": "DF"
+    },
+    {
+        "name": "Bobby Shearer",
+        "img": "BobbyShearer",
+        "club": "Raimon",
+        "position": "DF"
+    },
+    {
+        "name": "Tod Ironside",
+        "img": "TodIronside",
+        "club": "Raimon",
+        "position": "DF"
+    },
+    {
+        "name": "Nathan Swift",
+        "img": "NathanSwift",
+        "club": "Raimon",
+        "position": "DF"
+    },
+    {
+        "name": "Steve Grim",
+        "img": "SteveGrim",
+        "club": "Raimon",
+        "position": "MF"
+    },
+    {
+        "name": "Tim Saunders",
+        "img": "TimSaunders",
+        "club": "Raimon",
+        "position": "MF"
+    },
+    {
+        "name": "Sam Kincaid",
+        "img": "SamKincaid",
+        "club": "Raimon",
+        "position": "MF"
+    },
+    {
+        "name": "Jude Sharp",
+        "img": "JudeSharp",
+        "club": "Raimon",
+        "position": "MF"
+    },
+    {
+        "name": "Erik Eagle",
+        "img": "ErikEagle",
+        "club": "Raimon",
+        "position": "MF"
+    },
+    {
+        "name": "Maxwell Carson",
+        "img": "MaxwellCarson",
+        "club": "Raimon",
+        "position": "FW"
+    },
+    {
+        "name": "Kevin Dragonfly",
+        "img": "KevinDragonfly",
+        "club": "Raimon",
+        "position": "FW"
+    },
+    {
+        "name": "Axel Blaze",
+        "img": "AxelBlaze",
+        "club": "Raimon",
+        "position": "FW"
+    },
+    {
+        "name": "William Glass",
+        "img": "WilliamGlass",
+        "club": "Raimon",
+        "position": "FW"
+    }
+]

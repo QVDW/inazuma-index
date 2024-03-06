@@ -1,0 +1,15 @@
+export { default as MarkEvans } from './Mark_Evans.png';
+export { default as JackWallside } from './Jack_Wallside.png';
+export { default as JimWraith } from './Jim_Wraith.png';
+export { default as BobbyShearer } from './Bobby_Shearer.png';
+export { default as TodIronside } from './Tod_Ironside.png';
+export { default as NathanSwift } from './Nathan_Swift.png';
+export { default as SteveGrim } from './Steve_Grim.png';
+export { default as TimSaunders } from './Tim_Saunders.png';
+export { default as SamKincaid } from './Sam_Kincaid.png';
+export { default as JudeSharp } from './Jude_Sharp.png';
+export { default as ErikEagle } from './Erik_Eagle.png';
+export { default as MaxwellCarson } from './Maxwell_Carson.png';
+export { default as KevinDragonfly } from './Kevin_Dragonfly.png';
+export { default as AxelBlaze } from './Axel_Blaze.png';
+export { default as WilliamGlass } from './William_Glass.png';
