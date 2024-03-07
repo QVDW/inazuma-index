@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import playersData from './players.json';
 import newsData from './news.json';
-import * as clubLogos from './img/clubs/clubExport';
-import * as playerImages from './img/players/playerExport';
+import * as imgExports from './img/Exports';
 
 
 const Home = () => {
@@ -19,8 +18,8 @@ const Home = () => {
                         <div id="home_players_list">
                                 {playersData.map((player) => (
                                     <div class="mini_player">
-                                        <img src={clubLogos[player.club]} alt="Club Logo" />
-                                        <img src={playerImages[player.img]} alt="Player Image" id="playerimg"/>
+                                        <img src={imgExports[player.club]} alt="Club Logo" />
+                                        <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                                         <p>{player.position}</p>
                                         <h3 id="cardName">{player.name}</h3>
                                     </div>
@@ -29,11 +28,11 @@ const Home = () => {
                     </div>
                     <h2 id="news_titel">News</h2>
                     <div id="home_news">
-                        {newsData.map((news) => (
+                        {newsData.slice(0, 3).map((news) => (
                             <div class="news">
-                                <img src={news.img} alt="News Image" />
+                                <img src={imgExports[news.thumbnail]} alt="News Image" />
                                 <h3>{news.title}</h3>
-                                <a href="#">Click to read more</a>
+                                <a href={news.link} target="_blank">Click to read more</a>
                             </div>
                         ))}
                     </div>

@@ -1,1 +1,0 @@
-export { default as Raimon } from './Raimon.png';
