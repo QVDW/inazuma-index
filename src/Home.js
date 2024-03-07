@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import playersData from './players.json';
+import newsData from './news.json';
 import * as clubLogos from './img/clubs/clubExport';
 import * as playerImages from './img/players/playerExport';
 
@@ -25,6 +26,16 @@ const Home = () => {
                                     </div>
                                 ))}
                         </div>
+                    </div>
+                    <h2 id="news_titel">News</h2>
+                    <div id="home_news">
+                        {newsData.map((news) => (
+                            <div class="news">
+                                <img src={news.img} alt="News Image" />
+                                <h3>{news.title}</h3>
+                                <a href="#">Click to read more</a>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
