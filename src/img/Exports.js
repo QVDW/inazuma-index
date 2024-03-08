@@ -17,3 +17,8 @@ export { default as AxelBlaze } from './players/Axel_Blaze.png';
 export { default as WilliamGlass } from './players/William_Glass.png';
 
 export { default as BetaTestMarch } from './news/Beta_Test_March.png';
+
+export { default as Fire } from './cards/Fire_Card.png';
+export { default as Air } from './cards/Air_Card.png';
+export { default as Earth } from './cards/Earth_Card.png';
+export { default as Wood } from './cards/Wood_Card.png';
