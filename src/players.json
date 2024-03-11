@@ -1,5 +1,12 @@
 [
     {
+        "name": "",
+        "img": "invis",
+        "club": "invis",
+        "position": "",
+        "element": "addPlayer"
+    },
+    {
         "name": "Mark Evans",
         "img": "MarkEvans",
         "club": "Raimon",

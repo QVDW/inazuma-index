@@ -18,7 +18,6 @@ header{
   height: 65px;
   display: flex;
   align-items: center;
-  transition: background-color 0.5s ease-in-out;
   background-color: #0e1833;
   z-index: 1000;
 }
@@ -109,7 +108,7 @@ header #nav a{
 #home_searchbar input{
   width: 30%;
   height: 50px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px;
   background-color: #252525;
   border: 0;
   padding: 5px;
@@ -140,13 +139,14 @@ header #nav a{
 }
 
 .mini_player{
-  width: 150px;
-  height: 225px;
+  width: 125px;
+  height: 188px;
   background-size: cover;
   display: grid;
   grid-template-rows: 2% 75% 10% 2% 7%;
   grid-template-columns: 4% 67% 4% 18% 5% 2%;
   margin: 10px;
+  opacity: 1;
 }
 
 #playerimg{
@@ -252,5 +252,96 @@ header #nav a{
   flex-wrap: wrap;
   margin-top: 20px;
   color: #fefefe;
+  text-align: center;
+}
+
+.build_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#builder{
+  background-image: url('img/other/Soccerfield.png');
+  background-size: cover;
+  width: 80vh;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 28% 23% 23% 23%;
+  grid-template-columns: 100%;
+  justify-content: center;
+  color: #fefefe;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#GK{
+  grid-row: 4 / 5;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+#DF{
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  z-index: 4;
+}
+
+#MF{
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  z-index: 3;
+}
+
+#FW{
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+#searchMenu{
+  width: 80vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  background-color: #000000;
+  z-index: 1000;
+  text-align: center;
+  color: #fefefe;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#dropdown{
+  width: 80vh;
+}
+
+#dropdown select{
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #252525;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+  padding: 5px;
+  color: #fefefe;
+  font-size: 25px;
+  margin: 10px 0px 10px 0px;
+}
+
+#dropdown option{
+  background-color: #252525;
+  color: #fefefe;
+  font-weight: bold;
   text-align: center;
 }

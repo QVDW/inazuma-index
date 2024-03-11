@@ -22,3 +22,6 @@ export { default as Fire } from './cards/Fire_Card.png';
 export { default as Air } from './cards/Air_Card.png';
 export { default as Earth } from './cards/Earth_Card.png';
 export { default as Wood } from './cards/Wood_Card.png';
+
+export { default as addPlayer } from './cards/add_Card.png';
+export { default as invis} from './other/Invis.png';
