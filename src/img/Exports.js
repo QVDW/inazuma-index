@@ -23,5 +23,11 @@ export { default as Air } from './cards/Air_Card.png';
 export { default as Earth } from './cards/Earth_Card.png';
 export { default as Wood } from './cards/Wood_Card.png';
 
+export { default as FireElement} from './other/Fire_Element.png';
+export { default as AirElement} from './other/Air_Element.png';
+export { default as EarthElement} from './other/Earth_Element.png';
+export { default as WoodElement} from './other/Wood_Element.png';
+
 export { default as addPlayer } from './cards/add_Card.png';
 export { default as invis} from './other/Invis.png';
+

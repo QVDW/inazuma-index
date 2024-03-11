@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import playersData from './players.json';
 import * as imgExports from './img/Exports';
 
@@ -36,6 +35,7 @@ const Players = () => {
                             <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                             <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                             <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                            <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                             <p>{player.position}</p>
                             <h3 id="cardName">{player.name}</h3>
                         </div>

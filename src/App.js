@@ -4,6 +4,7 @@ import Home from './Home';
 import Players from './Players';
 import Builder from './Builder';
 import Moves from './Moves';
+import News from './News';
 import Error from './Error';
 
 
@@ -21,8 +22,8 @@ function App() {
                   <ul>
                       <li><NavLink to="Players">Players</NavLink></li>
                       <li><NavLink to="Builder">Squad Builder</NavLink></li>
-                      <li><NavLink to="News">News</NavLink></li>
                       <li><NavLink to="Moves">Moves</NavLink></li>
+                      <li><NavLink to="News">News</NavLink></li>
                   </ul>
               </div>
           </header>
@@ -31,6 +32,7 @@ function App() {
               <Route path="/Players" element={<Players />} />
               <Route path="/Builder" element={<Builder />} />
               <Route path="/Moves" element={<Moves />} />
+              <Route path="/News" element={<News />} />
               <Route path="*" element={<Error />} />
           </Routes>
       </BrowserRouter>

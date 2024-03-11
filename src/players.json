@@ -3,7 +3,6 @@
         "name": "",
         "img": "invis",
         "club": "invis",
-        "position": "",
         "element": "addPlayer"
     },
     {
@@ -11,104 +10,119 @@
         "img": "MarkEvans",
         "club": "Raimon",
         "position": "GK",
-        "element": "Earth"
+        "element": "Earth",
+        "elementIcon": "EarthElement"
     },
     {
         "name": "Jack Wallside",
         "img": "JackWallside",
         "club": "Raimon",
         "position": "DF",
-        "element": "Earth"
+        "element": "Earth",
+        "elementIcon": "EarthElement"
     },
     {
         "name": "Jim Wraith",
         "img": "JimWraith",
         "club": "Raimon",
         "position": "DF",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Bobby Shearer",
         "img": "BobbyShearer",
         "club": "Raimon",
         "position": "DF",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Tod Ironside",
         "img": "TodIronside",
         "club": "Raimon",
         "position": "DF",
-        "element": "Fire"
+        "element": "Fire",
+        "elementIcon": "FireElement"
     },
     {
         "name": "Nathan Swift",
         "img": "NathanSwift",
         "club": "Raimon",
         "position": "DF",
-        "element": "Air"
+        "element": "Air",
+        "elementIcon": "AirElement"
     },
     {
         "name": "Tim Saunders",
         "img": "TimSaunders",
         "club": "Raimon",
         "position": "MF",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Jude Sharp",
         "img": "JudeSharp",
         "club": "Raimon",
         "position": "MF",
-        "element": "Air"
+        "element": "Air",
+        "elementIcon": "AirElement"
     },
     {
         "name": "Erik Eagle",
         "img": "ErikEagle",
         "club": "Raimon",
         "position": "MF",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Maxwell Carson",
         "img": "MaxwellCarson",
         "club": "Raimon",
         "position": "FW",
-        "element": "Air"
+        "element": "Air",
+        "elementIcon": "AirElement"
     },
     {
         "name": "Kevin Dragonfly",
         "img": "KevinDragonfly",
         "club": "Raimon",
         "position": "FW",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Axel Blaze",
         "img": "AxelBlaze",
         "club": "Raimon",
         "position": "FW",
-        "element": "Fire"
+        "element": "Fire",
+        "elementIcon": "FireElement"
     },
     {
         "name": "William Glass",
         "img": "WilliamGlass",
         "club": "Raimon",
         "position": "FW",
-        "element": "Wood"
+        "element": "Wood",
+        "elementIcon": "WoodElement"
     },
     {
         "name": "Steve Grim",
         "img": "SteveGrim",
         "club": "Raimon",
         "position": "MF",
-        "element": "Air"
+        "element": "Air",
+        "elementIcon": "AirElement"
     },
     {
         "name": "Sam Kincaid",
         "img": "SamKincaid",
         "club": "Raimon",
         "position": "MF",
-        "element": "Fire"
+        "element": "Fire",
+        "elementIcon": "FireElement"
     }
 ]

@@ -4,7 +4,6 @@ import './index.css';
 import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-export { default as RaimonLogo } from './img/clubs/Raimon.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

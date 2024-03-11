@@ -18,7 +18,7 @@ header{
   height: 65px;
   display: flex;
   align-items: center;
-  background-color: #0e1833;
+  background-color: #1b1b1b;
   z-index: 1000;
 }
 
@@ -31,24 +31,12 @@ header{
   justify-content: right;
 }
 
-header #nav a{
-  transition: color 0.5s ease-in-out;
-}
-
-header.scrolled #nav a{
-  color: #fff;
-}
-
-header #nav a{
-  color: #ff0000;
-}
-
 #logo{
   margin-left: 10px;
 }
 
 #logo img{
-  width: 50px;
+  width: 40px;
   height: auto;
 }
 
@@ -143,7 +131,7 @@ header #nav a{
   height: 188px;
   background-size: cover;
   display: grid;
-  grid-template-rows: 2% 75% 10% 2% 7%;
+  grid-template-rows: 2% 75% 10% 1% 7%;
   grid-template-columns: 4% 67% 4% 18% 5% 2%;
   margin: 10px;
   opacity: 1;
@@ -198,6 +186,14 @@ header #nav a{
   margin-left: 1px;
   overflow: hidden;
   flex-wrap: wrap;
+}
+
+#element_icon{
+  grid-row: 3/4;
+  grid-column: 2/3;
+  z-index: 5;
+  height: 90%;
+  margin-left: 2px;
 }
 
 
@@ -309,8 +305,9 @@ header #nav a{
 }
 
 #searchMenu{
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
+  padding: 0 10vw 10vw;
   position: fixed;
   display: flex;
   background-color: #000000;
@@ -344,4 +341,37 @@ header #nav a{
   color: #fefefe;
   font-weight: bold;
   text-align: center;
+}
+
+#moves{
+  display: flex;
+  background-color: #2525254b;
+  width: 60vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moves{
+  display: flex;
+  height: 50px;
+  width: 520px;
+  margin: 20px 10px 10px 10px;
+  background-color: #252525;
+  color: #fefefe;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.moves *{
+  padding: 0px 20px 0px 20px;
+}
+
+#news{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
