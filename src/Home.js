@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import playersData from './players.json';
 import newsData from './news.json';
 import * as imgExports from './img/Exports';
@@ -18,17 +17,17 @@ const Home = () => {
 
     return (
         <div class="container">
-            <div id="homepage_bg"></div>
+            <div id="background"></div>
             <div id="homepage_content">
                 <div id="homepage">
-                    <div id="home_players">
-                    <div id="home_searchbar">
-                    <input
-                        type="text"
-                        placeholder="Search for a character"
-                        onChange={event => setSearchTerm(event.target.value)}
-                    />
-                </div>
+                    <div id="players">
+                        <div id="searchbar">
+                        <input
+                            type="text"
+                            placeholder="Search for a character"
+                            onChange={event => setSearchTerm(event.target.value)}
+                        />
+                        </div>
                         <div id="players_list">
                             <div id="home_players_list">
                                 {filteredPlayers.slice(0, 15).filter(player => player.img !== "invis").map((player) => (
@@ -36,6 +35,7 @@ const Home = () => {
                                         <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                                         <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                                         <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                                        <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                                         <p>{player.position}</p>
                                         <h3 id="cardName">{player.name}</h3>
                                     </div>

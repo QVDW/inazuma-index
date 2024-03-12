@@ -69,11 +69,11 @@ const Builder = () => {
 
     return (
         <div class="build_container">
-            <div id="homepage_bg"></div>
+            <div id="background"></div>
 
             {isSearchOpen && (
                 <div id="searchMenu">
-                    <div id="home_searchbar">
+                    <div id="searchbar">
                         <input
                             type="text"
                             placeholder="Search for tags: name, position, club or element"
@@ -87,6 +87,7 @@ const Builder = () => {
                                 <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                                 <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                                 <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                                <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                                 <p>{player.position}</p>
                                 <h3 id="cardName">{player.name}</h3>
                             </div>
@@ -102,6 +103,7 @@ const Builder = () => {
                         <img src={imgExports[selectedGK.img]} id="playerimg"/>
                         <img src={imgExports[selectedGK.element]} id="mini_player_card"/>
                         <img src={imgExports[selectedGK.club]} id="mini_player_club"/>
+                        <img src={imgExports[selectedGK.elementIcon]} alt="Element Icon" id="element_icon"/>
                         <p>{selectedGK.position}</p>
                         <h3 id="cardName">{selectedGK.name}</h3>
                     </div>
@@ -113,6 +115,7 @@ const Builder = () => {
                             <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                             <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                             <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                            <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                             <p>{player.position}</p>
                             <h3 id="cardName">{player.name}</h3>
                         </div>
@@ -125,6 +128,7 @@ const Builder = () => {
                             <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                             <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                             <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                            <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                             <p>{player.position}</p>
                             <h3 id="cardName">{player.name}</h3>
                         </div>
@@ -137,6 +141,7 @@ const Builder = () => {
                             <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                             <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
                             <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
+                            <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
                             <p>{player.position}</p>
                             <h3 id="cardName">{player.name}</h3>
                         </div>

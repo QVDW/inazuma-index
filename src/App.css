@@ -6,126 +6,9 @@
   scroll-behavior: smooth;
 }
 
-body{
-  background-color: #eeeeee;
-  padding-top: 65px;
-}
+/* Components */
 
-header{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 65px;
-  display: flex;
-  align-items: center;
-  background-color: #1b1b1b;
-  z-index: 1000;
-}
-
-#nav{
-  width: 100%;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  justify-content: right;
-}
-
-#logo{
-  margin-left: 10px;
-}
-
-#logo img{
-  width: 40px;
-  height: auto;
-}
-
-#nav ul{
-  display: flex;
-  list-style: none;
-}
-
-#nav li a{
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fefefe;
-}
-
-.container{
-  display: flex;
-  justify-content: center;
-}
-
-#homepage_bg{
-  background-image: url('img/bg_pc.jpg');
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  filter: brightness(0.05);
-  position: fixed;
-  z-index: -1;
-}
-
-#homepage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: #fff;
-  width: 100%;
-}
-
-#home_players{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
-
-#home_searchbar{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-#home_searchbar input{
-  width: 30%;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #252525;
-  border: 0;
-  padding: 5px;
-  color: #fefefe;
-  font-size: 15px;
-}
-
-#home_searchbar button{
-  width: 50px;
-  height: 50px;
-  border-radius: 0px 10px 10px 0px;
-  background-color: #252525;
-  border: 0;
-  color: #fefefe;
-  font-size: 20px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2px;
-}
-
-#home_players_list{
-  max-width: 1100px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
+/* Character Cards */
 .mini_player{
   width: 125px;
   height: 188px;
@@ -134,14 +17,12 @@ header{
   grid-template-rows: 2% 75% 10% 1% 7%;
   grid-template-columns: 4% 67% 4% 18% 5% 2%;
   margin: 10px;
-  opacity: 1;
 }
 
 #playerimg{
   width: 100%;
   grid-row: 2 / 5;
   grid-column: 2 / 5;
-  z-index: 0;
   border-radius: 5% 5% 0% 0%;
 }
 
@@ -150,7 +31,6 @@ header{
   grid-column: 1 / 6;
   height: 100%;
   width: 100%;
-  z-index: 0;
 }
 
 .mini_player p{
@@ -195,19 +75,9 @@ header{
   height: 90%;
   margin-left: 2px;
 }
+/* */
 
-
-#news_titel{
-  margin-top: 50px;
-}
-
-#home_news{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
+/* News Cards */
 .news{
   width: 400px;
   height: 280px;
@@ -240,7 +110,140 @@ header{
   text-align: left;
   align-self: center;
 }
+/* */
 
+body{
+  padding-top: 65px;
+}
+
+header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  align-items: center;
+  background-color: #1b1b1b;
+  z-index: 1000;
+}
+
+#nav{
+  width: 100%; 
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: right;
+}
+
+#logo{
+  margin-left: 10px;
+}
+
+#logo img{
+  height: 50px;
+}
+
+#nav ul{
+  display: flex;
+  list-style: none;
+}
+
+#nav li a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+#background{
+  background-image: url('img/bg_pc.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.05);
+  position: fixed;
+  z-index: -1;
+}
+
+/* Homepage */
+#homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+#players{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+#searchbar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#searchbar input{
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #252525;
+  border: 0;
+  padding: 5px;
+  color: #fefefe;
+  font-size: 15px;
+}
+
+#searchbar button{
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #252525;
+  border: 0;
+  color: #fefefe;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
+#home_players_list{
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#news_titel{
+  margin-top: 50px;
+}
+
+#home_news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* */
+
+/* Players */
 #players_list{
   width: 80vw;
   display: flex;
@@ -250,7 +253,9 @@ header{
   color: #fefefe;
   text-align: center;
 }
+/* */
 
+/* Squad Builder */
 .build_container{
   display: flex;
   align-items: center;
@@ -342,7 +347,9 @@ header{
   font-weight: bold;
   text-align: center;
 }
+/* */
 
+/* Moves */
 #moves{
   display: flex;
   background-color: #2525254b;
@@ -354,7 +361,7 @@ header{
 .moves{
   display: flex;
   height: 50px;
-  width: 520px;
+  width: 90%;
   margin: 20px 10px 10px 10px;
   background-color: #252525;
   color: #fefefe;
@@ -366,7 +373,9 @@ header{
 .moves *{
   padding: 0px 20px 0px 20px;
 }
+/* */
 
+/* News */
 #news{
   width: 80%;
   display: flex;
@@ -375,3 +384,4 @@ header{
   flex-wrap: wrap;
   margin-top: 20px;
 }
+/* */

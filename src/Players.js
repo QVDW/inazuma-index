@@ -20,9 +20,9 @@ const Players = () => {
 
     return (
         <div class="container">
-            <div id="homepage_bg"></div>
-            <div id="home_players">
-                <div id="home_searchbar">
+            <div id="background"></div>
+            <div id="players">
+                <div id="searchbar">
                     <input
                         type="text"
                         placeholder="Search for tags: name, position, club or element"

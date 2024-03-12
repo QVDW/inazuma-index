@@ -3,7 +3,9 @@
         "name": "",
         "img": "invis",
         "club": "invis",
-        "element": "addPlayer"
+        "element": "addPlayer",
+        "elementIcon": "invis"
+        
     },
     {
         "name": "Mark Evans",

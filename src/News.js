@@ -6,7 +6,7 @@ import * as imgExports from './img/Exports';
 const News = () => {
     return (
         <div class="container">
-            <div id="homepage_bg"></div>
+            <div id="background"></div>
             <div id="news">
                 {newsData.map((news) => (
                     <div class="news">
