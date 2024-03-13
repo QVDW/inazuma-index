@@ -112,6 +112,7 @@
 }
 /* */
 
+/*    */
 body{
   padding-top: 65px;
 }
@@ -181,25 +182,16 @@ header{
   width: 100%;
 }
 
-#players{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
-
 #searchbar{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 #searchbar input{
-  width: 30%;
+  width: 30vw;
   height: 50px;
   border-radius: 10px;
   background-color: #252525;
@@ -244,6 +236,15 @@ header{
 /* */
 
 /* Players */
+#players{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
 #players_list{
   width: 80vw;
   display: flex;
@@ -352,16 +353,18 @@ header{
 /* Moves */
 #moves{
   display: flex;
-  background-color: #2525254b;
+  background-color: #2525255b;
   width: 60vw;
+  min-width: 750px;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .moves{
   display: flex;
   height: 50px;
-  width: 90%;
+  width: 600px;
   margin: 20px 10px 10px 10px;
   background-color: #252525;
   color: #fefefe;

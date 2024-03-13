@@ -21,8 +21,8 @@ function App() {
               <div id="nav">
                   <ul>
                       <li><NavLink to="Players">Players</NavLink></li>
-                      <li><NavLink to="Builder">Squad Builder</NavLink></li>
                       <li><NavLink to="Moves">Moves</NavLink></li>
+                      <li><NavLink to="Builder">Team Builder</NavLink></li>
                       <li><NavLink to="News">News</NavLink></li>
                   </ul>
               </div>
