@@ -57,11 +57,11 @@ const Builder = () => {
         useEffect(() => {
             setFilteredPlayers(
                 playersData.filter(player =>
-                    player.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    player.img.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    player.club.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    player.position.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    player.element.toLowerCase().includes(searchTerm.toLowerCase())
+                    player.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    player.img?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    player.club?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    player.position?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    player.element?.toLowerCase().includes(searchTerm.toLowerCase())
                 )
             );
         }, [searchTerm]);
@@ -69,7 +69,7 @@ const Builder = () => {
 
     return (
         <div class="build_container">
-            <div id="background"></div>
+            <div id="background_svg"></div>
 
             {isSearchOpen && (
                 <div id="searchMenu">
