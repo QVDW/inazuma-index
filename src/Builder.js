@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import playersData from './players.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
