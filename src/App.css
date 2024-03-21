@@ -395,7 +395,7 @@ background-size: cover;
 /* Moves */
 #moves_container{
   display: flex;
-  background-color: #171717;
+  background-color: #08070f;
   width: auto;
   margin-left: 8%;
   width: 100%;
@@ -413,8 +413,9 @@ background-size: cover;
 #moves_searchbar input{
   width: 30vw;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #252525;
+  color: #fefefe;
   border: 0;
   padding: 5px;
   font-size: 15px;
@@ -432,26 +433,26 @@ background-size: cover;
   display: grid;
   height: 150px;
   width: 800px;
-  margin: 2px;
-  border-radius: 10px;
-  border: 2px solid rgba(8,7,15,1);
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #938AF1;
   color: #fefefe;
   grid-template-rows: 30% 20% 20% 20% 10%;
   grid-template-columns: 5% 15% 20% 25% 35%;
   z-index: 1;
+  overflow: hidden;
 }
 
 #moves_bg{
   position: absolute;
-  background: rgb(8,7,15);
-  background: linear-gradient(90deg, rgba(8,7,15,1) 0%, rgba(8,7,15,1) 65%, rgba(8,7,15,0) 75%);
+  background: rgb(27, 24, 51);
+  background: linear-gradient(90deg, rgb(20, 18, 37) 0%, rgba(20, 18, 37,1) 65%, rgba(27, 24, 51,0) 75%);
   width: 800px;
-  height: 150px;
+  height: 147px;
   margin: 0px;
-  grid-row: 1 / 6;
-  grid-column: 1 / 6;
   z-index: 1;
   pointer-events: none;
+  border-radius: 5px;
 }
 
 .moves *{
@@ -482,7 +483,7 @@ background-size: cover;
   height: 100%;
   margin: 0px;
   z-index: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 /* */
