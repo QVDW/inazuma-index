@@ -1,4 +1,4 @@
-import movesData from './moves.json';
+import movesData from './moves_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
 

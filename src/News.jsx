@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import newsData from './news.json';
+import newsData from './news_list.json';
 import * as imgExports from './img/Exports';
 
 

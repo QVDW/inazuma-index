@@ -1,4 +1,4 @@
-import playersData from './players.json';
+import playersData from './players_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
 

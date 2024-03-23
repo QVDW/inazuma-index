@@ -260,13 +260,6 @@ background-size: cover;
 #news_titel{
   margin-top: 50px;
 }
-
-#home_news{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 /* */
 
 /* Players */
@@ -504,84 +497,134 @@ background-size: cover;
 
 #home_container{
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
-  background-image: url('img/other/homepage_bg.jpg');
+}
+
+#home_bg{
+  width: 105%;
+  height: 105%;
+  position: fixed;
+  background-image: url('img/other/bg.png');
+  filter: blur(5px);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
 }
 
-#home_fade{
-  width: auto;
-  height: 100%;
-  background: rgb(8,7,15);
-  background: linear-gradient(100deg, rgba(8,7,15,1) 0%, rgba(8,7,15,1) 50%, rgba(8,7,15,0) 100%);
+#home_main{
   display: flex;
-  margin-left: 8%;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 60%;
 }
 
-#home_text{
+#home_main a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#home_main div{
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  color: #fefefe;
-  text-align: left;
-  height: 100%;
-  width: 50%;
-  justify-content: center;
-  margin-left: 5%;
 }
 
-#home_text h1{
-  font-size: 85px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-#home_text p{
-  width: 60%;
-  font-size: 23px;
-  margin-bottom: 20px;
-}
-
-#news_button{
-  width: 150px;
-  height: 50px;
-  background-color: #68afad;
-  border: 0;
-  color: #fefefe;
-  font-size: 25px;
-  cursor: pointer;
+.home_class_text{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-}
-
-#extra_nav{
-  display: flex;
-  position: fixed;
-  align-items: center;
+  text-align: center;
+  color: #08070f;
+  background: rgb(254,254,254);
+  background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 95%, rgba(254,254,254,0) 100%);
   width: 100%;
-  height: 10%;
-  text-decoration: none;
-  list-style: none;
-  color: none;
-  justify-content: space-between;
-  margin-left: 4%;
+  height: 5.5vw;
+  align-self: flex-end;
 }
 
-#extra_nav ul{
-  display: flex;
-  justify-content: space-between;
-  width: 27%;
+.home_class_text h1{
+  font-size: 1.5vw;
+  margin-top: 1vw;
 }
 
-#extra_nav a{
-  text-decoration: none;
-  list-style: none;
-  color: #fefefe;
-  font-size: 20px;
+#home_players{
+  height: 100%;
+  width: 30%;
+  background-color: #FEFEFE;
+  margin: 1.5%;
+  justify-content: end;
+  align-items: center;
+  background-image: url('img/other/nr1.png');
+  background-position: 55% 25vw;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+#home_players:hover{
+  transform: scale(1.1);
+}
+
+#home_builder{
+  height: 100%;
+  width: 30%;
+  background-color: #FEFEFE;
+  margin: 1.5%;
+  justify-content: end;
+  align-items: center;
+  background-image: url('img/other/TeamBuilder.jpg');
+  background-size: 43vw;
+  background-position: 44% 24vw;
+  transition: 0.5s;
+}
+
+#home_builder:hover{
+  transform: scale(1.1);
+}
+
+#home_vertical{
+  height: 100%;
+  width: 30%;
+  margin: 1.5%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home_moves{
+  height: 47%;
+  width: 100%;
+  background-color: #FEFEFE;
+  justify-content: end;
+  align-items: center;
+  background-image: url('img/other/FireTornado.jpg');
+  background-position: 0% -4vw;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+#home_moves:hover{
+  transform: scale(1.1);
+}
+
+#home_news{
+  height: 47%;
+  width: 100%;
+  background-color: #FEFEFE;
+  justify-content: end;
+  align-items: center;
+  background-image: url('img/other/news.png');
+  background-position: 21vw 12vw;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+#home_news:hover{
+  transform: scale(1.1);
+}
+
+#noPage{
+  margin-left: 8%;
 }
