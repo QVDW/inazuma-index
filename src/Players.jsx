@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import playersData from './players_list.json';
+import BackBTN from './HomeButton';
 import * as imgExports from './img/Exports';
 
 const Players = () => {
@@ -21,6 +22,7 @@ const Players = () => {
     return (
         <div class="container">
             <div id="background"></div>
+            <BackBTN />
             <div id="players">
                 <div id="searchbar">
                     <input

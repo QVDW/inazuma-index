@@ -1,6 +1,7 @@
 import movesData from './moves_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
+import BackBTN from './HomeButton';
 
 const Moves = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -19,8 +20,9 @@ const Moves = () => {
     }, [searchTerm]);
 
     return (
-        <div class="container">
+        <div class="scroll_container">
             <div id="background"></div>
+            <BackBTN />
             <div id="moves_container">
                 <div id="moves_searchbar">
                      <input

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, NavLink, useLocation } from 'react-router-dom';
 
 import Home from './Home';
 import Players from './Players';
@@ -12,6 +12,7 @@ import './App.css';
 import Logo from './img/icon.png';
 
 function App() {
+
   return (
       <BrowserRouter>
           {/* <header>

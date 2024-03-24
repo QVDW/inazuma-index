@@ -1,6 +1,7 @@
 import playersData from './players_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
+import BackBTN from './HomeButton';
 
 const Builder = () => {
     const [selectedGK, setSelectedGK] = useState(playersData[0]);
@@ -69,7 +70,7 @@ const Builder = () => {
     return (
         <div class="build_container">
             <div id="background_svg"></div>
-
+            <BackBTN />
             {isSearchOpen && (
                 <div id="searchMenu">
                     <div id="searchbar">
@@ -95,7 +96,7 @@ const Builder = () => {
                     </div>
                 </div>
             )}
-
+                
             <div id="builder">
                 <div id="GK">
                     <div class="mini_player" onClick={() => handleCardClick('GK')}>

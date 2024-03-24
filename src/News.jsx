@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import newsData from './news_list.json';
 import * as imgExports from './img/Exports';
-
+import BackBTN from './HomeButton';
 
 const News = () => {
     return (
-        <div class="container">
+        <div class="scroll_container">
             <div id="background"></div>
+            <BackBTN />
             <div id="news">
                 {newsData.map((news) => (
                     <div class="news">

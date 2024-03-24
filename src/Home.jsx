@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
 const Homepage = () => {
 
     return (
-        <div id="home_container">
+        <div class="container">
             <div id="home_bg"></div>
             <div id="home_main">
                 <div id="home_players">
