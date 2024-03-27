@@ -31,3 +31,5 @@ export { default as WoodElement} from './other/Wood_Element.png';
 export { default as addPlayer } from './cards/add_Card.png';
 export { default as invis} from './other/Invis.png';
 
+export { default as BigMarkEvans } from './big_players/Mark_Evans.png';
+

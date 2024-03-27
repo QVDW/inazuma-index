@@ -18,6 +18,7 @@
   width: 50px;
   height: 30px;
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
   align-self: flex-start;
@@ -37,13 +38,13 @@
 
 /* Character Cards */
 .mini_player{
-  width: 125px;
-  height: 188px;
+  width: 175px;
+  height: 264px;
   background-size: cover;
   display: grid;
   grid-template-rows: 2% 75% 10% 1% 7%;
   grid-template-columns: 4% 67% 4% 18% 5% 2%;
-  margin: 10px;
+  margin: 5px;
 }
 
 #playerimg{
@@ -260,7 +261,6 @@ header svg.active{
 }
 
 #searchbar{
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,22 +310,69 @@ header svg.active{
 #players{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 20px;
   flex-wrap: wrap;
   animation: playerCardAnimation 0.5s ease-in-out;
 }
 
-#players_list{
-  width: 80vw;
+#big_player_container{
   display: flex;
+  margin-left: 4vw;
+  width: 40vw;
+  height: 100%;
+}
+
+#big_player{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  z-index: -1;
+}
+
+#big_player_img{
+  width: 21%;
+  border-radius: 5px;
+}
+
+.players_extra{
+  width: 100px;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   color: #fefefe;
-  text-align: center;
+  -webkit-text-stroke: 2px #000;
+}
+
+.players_extra img{
+  width: 50px;
+  height: 50px;
+}
+
+#players_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 55vw;
+  color: #fefefe;
   animation: playerCardAnimation 0.75s ease-in-out;
+}
+
+.players_position{
+  margin: 10px;
+}
+
+.players_position h1{
+  font-size: 40px;
+  -webkit-text-stroke: 3px #000;
+}
+
+.position_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 @keyframes playerCardAnimation {
@@ -564,6 +611,8 @@ header svg.active{
   width: 100vw;
   height: 100vh;
   justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 #home_bg{
