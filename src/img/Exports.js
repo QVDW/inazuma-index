@@ -33,3 +33,7 @@ export { default as invis} from './other/Invis.png';
 
 export { default as BigMarkEvans } from './big_players/Mark_Evans.png';
 
+export { default as FireBanner } from './other/Fire_Banner.png';
+export { default as EarthBanner } from './other/Earth_Banner.png';
+export { default as AirBanner } from './other/Air_Banner.png';
+export { default as WoodBanner } from './other/Wood_Banner.png';

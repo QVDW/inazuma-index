@@ -50,13 +50,9 @@ const Players = () => {
                         <h1>GK</h1>
                         <div class="position_list">
                             {filteredPlayers.filter(player => player.position == "GK").map((player) => (
-                                <div class="mini_player">
-                                    <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
-                                    <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
-                                    <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
-                                    <p>{player.position}</p>
-                                    <h3 id="cardName">{player.name}</h3>
+                                <div class="player">
+                                    <img src={imgExports.BigMarkEvans} alt="Player Image" id="player_img"/>
+                                    <h3 id="player_Name">{player.name}</h3>
                                 </div>
                             ))}
                         </div>

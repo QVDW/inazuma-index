@@ -1,135 +1,218 @@
 [
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "God Hand",
+        "element": "EarthBanner",
+        "type": "Save",
+        "video": "https://www.youtube.com/embed/2_8bkr9Bpq8?si=PNbFEB_xV8eP6z3M"
     },
     {
         "move": "Fire Tornado",
-        "element": "FireElement",
+        "element": "FireBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/257BUajDg3M?si=wjEOlgeHfDIt7U3h"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "The Wall",
+        "element": "EarthBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/ntWx8lZc1Rs?si=S_1aJ4vxSxjnF2hn"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
+        "move": "Bouncing Bunny",
+        "element": "WoodBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/e4hvE8Kc-XQ?si=LxkWdEloBMDLE6pj"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Plasma Cut",
+        "element": "FireBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/b4km-Jrrt0Q?si=dJlRmpeC8KVV18sP"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Pancake Defence",
+        "element": "EarthBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/3OmZbbG33OA?si=SHEY-GBbcxSxPlO3"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
+        "move": "Meteor Blade",
+        "element": "FireBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/NqGSyr6cC04?si=X-Wl1q00H4Z5x1ip"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Killer Slide",
+        "element": "WoodBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/OTtJdLtKUPM?si=Y_hHX3_YBW-hbND2"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Heaven's Time",
+        "element": "AirBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/RL2QDYUNAJ8?si=DgFZ5hc3VWxUsvRP"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Heart Beat",
+        "element": "FireBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/niwVBewDx_A?si=FBBeHggVmMI3LHDs"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Goopy Gloopy Goo",
+        "element": "FireBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/SrnxIZ7RcaM?si=lDwBGGe9Y8APlHvI"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Flurry Dash",
+        "element": "AirBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/qejM-5bI8kk?si=X-CpMT8i3C7PFJso"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Flash Dash",
+        "element": "AirBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/njHo6IHn7fM?si=ETQR9C5j_aNihsqh"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Combustion Catch",
+        "element": "FireBanner",
+        "type": "Save",
+        "video": "https://www.youtube.com/embed/owbCfVQpKFY?si=mjfAjVgOb_mXTEej"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
+        "move": "Royal Lancer",
+        "element": "EarthBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/-0JZO5JbO6o?si=DcIQw5Jk0RE4GPRy"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "The Wall",
+        "element": "EarthBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/ntWx8lZc1Rs?si=tqe5BvqHB8RgvA6I"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
-        "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "move": "Dance on Air",
+        "element": "EarthBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/qrvRVOUvIlo?si=G0EGLgi8mWtti39l"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
+        "move": "Doomsword Slash",
+        "element": "FireBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/bV9rG8hHCvU?si=YhqNv8WN36GLxlcR"
     },
     {
-        "move": "Fire Tornado",
-        "element": "FireElement",
+        "move": "Lightning Bolt",
+        "element": "FireBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/5_vLpc90gCc?si=1a7zPGN5iVLWfV4T"
+    },
+    {
+        "move": "Spinning Cut",
+        "element": "AirBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/27kdo0ZedFc?si=y7WD2fh3j-IhT2u4"
+    },
+    {
+        "move": "Spinning Shot",
+        "element": "AirBanner",
         "type": "Shot",
-        "tp": "90",
-        "power": "33"
+        "video": "https://www.youtube.com/embed/5N0NNIxjSBs?si=fr9dvgb5qrxT1FMh"
+    },
+    {
+        "move": "Hunter's Net",
+        "element": "WoodBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/YQ35TtJZIIU?si=2mEt5fYbPStvcXE3"
+    },
+    {
+        "move": "Death Zone",
+        "element": "WoodBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/tb8cT5CXrCw?si=ZQzIT_AGJ73XThik"
+    },
+    {
+        "move": "Legendary Wolf",
+        "element": "AirBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/6vlsY2uoGN4?si=52riUEFi-trP9jWy"
+    },
+    {
+        "move": "The Tower",
+        "element": "AirBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/hioz2gy9reM?si=hiIfnUmDkDY-IWQN"
+    },
+    {
+        "move": "Mystifying Mist",
+        "element": "WoodBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/f3RofiuanU0?si=ao9DtoscBRTj0qiM"
+    },
+    {
+        "move": "Tsunami Boost",
+        "element": "AirBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/1n3-TJl53DY?si=Ifp9WFd-M_pDefSH"
+    },
+    {
+        "move": "Whirlwind Force",
+        "element": "AirBanner",
+        "type": "Block",
+        "video": "https://www.youtube.com/embed/GScAuTV5Mzk?si=3f029R-M7Y8eqv3I"
+    },
+    {
+        "move": "Illusory Ball",
+        "element": "WoodBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/y04MWJt_LZk?si=IVG22qUgRaVT6ofb"
+    },
+    {
+        "move": "Hey Presto",
+        "element": "WoodBanner",
+        "type": "Dribble",
+        "video": "https://www.youtube.com/embed/udqzLy5FKys?si=KehcF_Vv9JJD-uhS"
+    },
+    {
+        "move": "Butterfly Trance",
+        "element": "EarthBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/rxqKdUk4A4s?si=Wcg2CrkDI7mcOKfS"
+    },
+    {
+        "move": "Wormhole",
+        "element": "FireBanner",
+        "type": "Save",
+        "video": "https://www.youtube.com/embed/IWw8ExpIu5A?si=5oixEeB6xHYCAxq1"
+    },
+    {
+        "move": "Northern Impact",
+        "element": "AirBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/SWsRst7Sk3k?si=boo5XoiDxpRLJ6TD"
+    },
+    {
+        "move": "Rotary Sander",
+        "element": "FireBanner",
+        "type": "Save",
+        "video": "https://www.youtube.com/embed/uDlYjNim9gQ?si=I6tkMPnM5xLe_W_z"
+    },
+    {
+        "move": "Disaster Strike",
+        "element": "EarthBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/OLaw2LDIrbk?si=GW1jnkGqbhIOCdvK"
+    },
+    {
+        "move": "Dragon Crash",
+        "element": "WoodBanner",
+        "type": "Shot",
+        "video": "https://www.youtube.com/embed/m_eduAZfslQ?si=jnRSEu1XpgSigac8"
     }
 ]
