@@ -33,15 +33,12 @@ const Moves = () => {
 
                  <div id="moves_list">
                     {filteredPlayers.map((moves, index) => (
-                        <div 
-                        className="moves"
-                        style={{ animationDelay: `${0.2 * (index + 1)}s` }}
-                        >
-                        <img src={imgExports[moves.element]} id="element_banner" />
-                        <h3>{moves.move}</h3>
-                        <iframe src={moves.video} frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className="moves" >
+                            <img src={imgExports[moves.element]} id="element_banner" />
+                            <h3>{moves.move}</h3>
+                            <iframe src={moves.video} frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                    ))}
+                        ))}
                     </div>
             </div>
         </div>

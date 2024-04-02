@@ -51,8 +51,7 @@ const Players = () => {
                         <div class="position_list">
                             {filteredPlayers.filter(player => player.position == "GK").map((player) => (
                                 <div class="player">
-                                    <img src={imgExports.BigMarkEvans} alt="Player Image" id="player_img"/>
-                                    <h3 id="player_Name">{player.name}</h3>
+                                    <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
                                 </div>
                             ))}
                         </div>
@@ -61,13 +60,8 @@ const Players = () => {
                         <h1>DF</h1>
                         <div class="position_list">
                             {filteredPlayers.filter(player => player.position == "DF").map((player) => (
-                                <div class="mini_player">
+                                <div class="player">
                                     <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
-                                    <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
-                                    <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
-                                    <p>{player.position}</p>
-                                    <h3 id="cardName">{player.name}</h3>
                                 </div>
                             ))}
                         </div>
@@ -76,13 +70,8 @@ const Players = () => {
                         <h1>MF</h1>
                         <div class="position_list">
                             {filteredPlayers.filter(player => player.position == "MF").map((player) => (
-                                <div class="mini_player">
+                                <div class="player">
                                     <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
-                                    <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
-                                    <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
-                                    <p>{player.position}</p>
-                                    <h3 id="cardName">{player.name}</h3>
                                 </div>
                             ))}
                         </div>
@@ -91,13 +80,8 @@ const Players = () => {
                         <h1>FW</h1>
                         <div class="position_list">
                             {filteredPlayers.filter(player => player.position == "FW").map((player) => (
-                                <div class="mini_player">
+                                <div class="player">
                                     <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <img src={imgExports[player.element]} alt="Background Card" id="mini_player_card"/>
-                                    <img src={imgExports[player.club]} alt="Club Logo" id="mini_player_club"/>
-                                    <img src={imgExports[player.elementIcon]} alt="Element Icon" id="element_icon"/>
-                                    <p>{player.position}</p>
-                                    <h3 id="cardName">{player.name}</h3>
                                 </div>
                             ))}
                         </div>
