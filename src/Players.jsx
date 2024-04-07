@@ -2,10 +2,13 @@ import { useState, useEffect } from 'react';
 import playersData from './players_list.json';
 import BackBTN from './HomeButton';
 import * as imgExports from './img/Exports';
+import { useNavigate } from 'react-router-dom'; // useNavigate instead of useHistory
 
 const Players = () => {
+    
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredPlayers, setFilteredPlayers] = useState(playersData);
+    const navigate = useNavigate(); // useNavigate instead of useHistory
 
     useEffect(() => {
         setFilteredPlayers(
@@ -18,6 +21,20 @@ const Players = () => {
             )
         );
     }, [searchTerm]);
+
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+          if (event.key === 'Escape') {
+            navigate('/');
+          }
+        };
+      
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+          window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [navigate]);
 
     return (
         <div class="scroll_container">
@@ -43,39 +60,6 @@ const Players = () => {
                             ))}
                         </div>
                     </div>
-                    {/*<div class="players_position">
-                        <h1>DF</h1>
-                        <div class="position_list">
-                            {filteredPlayers.filter(player => player.position == "DF").map((player) => (
-                                <div class="player">
-                                    <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <h3>{player.name}</h3>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                    <div class="players_position">
-                        <h1>MF</h1>
-                        <div class="position_list">
-                            {filteredPlayers.filter(player => player.position == "MF").map((player) => (
-                                <div class="player">
-                                    <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <h3>{player.name}</h3>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                    <div class="players_position">
-                        <h1>FW</h1>
-                        <div class="position_list">
-                            {filteredPlayers.filter(player => player.position == "FW").map((player) => (
-                                <div class="player">
-                                    <img src={imgExports[player.img]} alt="Player Image" id="playerimg"/>
-                                    <h3>{player.name}</h3>
-                                </div>
-                            ))}
-                        </div>
-                    </div>*/}
                 </div>
             </div>
         </div>

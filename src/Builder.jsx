@@ -2,6 +2,7 @@ import playersData from './players_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
 import BackBTN from './HomeButton';
+import { useNavigate } from 'react-router-dom';
 
 const Builder = () => {
     const [selectedGK, setSelectedGK] = useState(playersData[0]);
@@ -9,6 +10,7 @@ const Builder = () => {
     const [selectedMFsCount, setSelectedMFsCount] = useState(3);
     const [selectedFWsCount, setSelectedFWsCount] = useState(3);
     const [selectedBench, setSelectedBench] = useState([5]);
+    const navigate = useNavigate();
 
     const handleDropdownChange = (event) => {
         const selectedOption = event.target.value;
@@ -66,6 +68,19 @@ const Builder = () => {
             );
         }, [searchTerm]);
     
+        useEffect(() => {
+            const handleKeyDown = (event) => {
+              if (event.key === 'Escape') {
+                navigate('/');
+              }
+            };
+          
+            window.addEventListener('keydown', handleKeyDown);
+    
+            return () => {
+              window.removeEventListener('keydown', handleKeyDown);
+            };
+        }, [navigate]);
 
     return (
         <div class="build_container">

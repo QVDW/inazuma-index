@@ -14,32 +14,43 @@
 /* Components */
 
 #BackBTN{
-  margin: 20px;
-  width: 50px;
-  height: 30px;
   display: flex;
   position: fixed;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  left: 0;
   align-self: flex-start;
+}
+
+#BackBTN a{
+  display: flex;
+  width: 50px;
+  height: 30px;
+  padding-top: 2px;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   animation: PopUp 0.5s ease-in-out;
   border: 2px solid #ffffff;
   background-color: #252525;
   border-radius: 5px;
+  color: #fefefe;
+  text-decoration: none;
 }
 
-#BackBTN svg{
-  margin-top: 3px;
-  height: 80%;
-  fill: #ffffff; 
+#BackBTN h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fefefe;
 }
 
 
 /* Character Cards */
 .mini_player{
-  width: 17vh;
-  height: 23vh;
+  width: 15vh;
+  height: 20vh;
   background-size: cover;
   display: grid;
   grid-template-rows: 2% 75% 10% 1% 7%;

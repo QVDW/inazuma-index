@@ -2,11 +2,12 @@ import movesData from './moves_list.json';
 import * as imgExports from './img/Exports';
 import { useState, useEffect } from 'react';
 import BackBTN from './HomeButton';
+import { useNavigate } from 'react-router-dom';
 
 const Moves = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredPlayers, setFilteredPlayers] = useState(movesData);
-    
+    const navigate = useNavigate();
 
     useEffect(() => {
         setFilteredPlayers(
@@ -18,6 +19,20 @@ const Moves = () => {
         );
     }, [searchTerm]);
 
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+          if (event.key === 'Escape') {
+            navigate('/');
+          }
+        };
+      
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+          window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [navigate]);
+    
     return (
         <div class="scroll_container">
             <BackBTN />
